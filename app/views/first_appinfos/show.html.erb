@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @first_appinfo.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @first_appinfo.email %>
+</p>
+
+
+<%= link_to 'Edit', edit_first_appinfo_path(@first_appinfo) %> |
+<%= link_to 'Back', first_appinfos_path %>
